@@ -83,3 +83,45 @@ tr td{
 	color: #fff;
 	margin: 50%;
 }
+
+#liens {
+margin-left: auto;
+margin-right: auto;
+}
+
+td a{
+text-decoration : none;
+color: black;
+font-size : 30px
+}
+
+#liens, tr, td{
+width : 500px;
+text-
+align : center;
+}
+
+td a:hover{
+text-decoration : none;
+color: blue;
+font-size : 35px;
+transition : 0.05s;
+font-weight : bold;
+}
+
+#image{
+height: 250px;
+width : 500;
+}
+
+#corps{
+text-align : center;
+}
+#titre{
+text-align : center;
+text-decoration: underline;
+font-style : italic;
+}
+
+
+
