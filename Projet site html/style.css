@@ -22,7 +22,7 @@ ul {
 
 #liens tr td{
 	text-align: center;
-	background-color: green;
+	background-color: grey;
 	border-radius: 17px;
 	padding: 10px;
 }
@@ -31,7 +31,7 @@ ul {
 
 #liens td a:hover{
 	transition: 0.5s;
-	font-size: 40px;
+	font-size: 20px;
 	text-align: center;
 	border-radius:17px;
 }
@@ -71,6 +71,7 @@ tr td{
 	margin: auto;
 	border-radius: 17px;
 	width: 70%;
+	
 }
 .embet{
 	background-color: #ffc117;
@@ -89,37 +90,25 @@ margin-left: auto;
 margin-right: auto;
 }
 
-td a{
-text-decoration : none;
-color: black;
-font-size : 30px
-}
+
 
 #liens, tr, td{
 width : 500px;
-text-
-align : center;
-}
-
-td a:hover{
-text-decoration : none;
-color: blue;
-font-size : 35px;
-transition : 0.05s;
-font-weight : bold;
+text-align : center;
 }
 
 #image{
 height: 250px;
-width : 500;
+width : 500px;
+border-radius: 5px;
+box-shadow : 8px 8px 10px 0 rgba(0,0,0,0.5);
 }
 
 #corps{
 text-align : center;
 }
-#titre{
+h1{
 text-align : center;
-text-decoration: underline;
 font-style : italic;
 }
 
