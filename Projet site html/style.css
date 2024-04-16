@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+	font-family: Poppins;
+	color: black;
+	text-decoration: none;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+ }
+ li a {
+	 text-decoration:none;
+ }
+ 
+ .pavé {
+	 text-align: center;
+	 
+ }
+
+#liens tr td{
+	text-align: center;
+	background-color: green;
+	border-radius: 17px;
+	padding: 10px;
+}
+
+
+
+#liens td a:hover{
+	transition: 0.5s;
+	font-size: 40px;
+	text-align: center;
+	border-radius:17px;
+}
+.button_res{
+	background-color: #da2323;
+	border: none;
+	border-radius: 7px;
+	padding: 5px;
+	padding: 10px;
+	cursor: pointer;
+}
+.button_res:hover{
+	background-color: #ffc117;
+	transition: 0.5s;
+
+}
+#annonce{
+	color: #000000a9;
+}
+#tablee{
+	border-collapse: collapse;
+	float: left;
+}
+tr td{
+	border: 1px solid black;
+	padding: 5px;
+}
+#limite{
+	width: auto;
+	height: auto;
+}
+.paragraphe{
+	padding: 20px;
+}
+.image{
+	display: block;
+	margin: auto;
+	border-radius: 17px;
+	width: 70%;
+}
+.embet{
+	background-color: #ffc117;
+}
+#bas{
+	display: flex;
+	justify-content: center;
+	padding: 5px;
+	background-color: #45a1ff;
+	color: #fff;
+	margin: 50%;
+}
