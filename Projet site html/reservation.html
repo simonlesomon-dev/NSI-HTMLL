@@ -10,9 +10,9 @@
 
 	<table id="liens">
 		<tr>
-			<td><a href="#index">Accueil</td>
+			<td><a href="index.html">Accueil</td>
 			<td><a href="reservation.html">Réservation</td>
-			<td><a href="#index">Visiter</td>
+			<td><a href="visiter.html">Visiter</td>
 		</tr>
 		</table>
 
@@ -75,6 +75,7 @@
 				<td>70 euros</td>
 			</tr>
 		</table>
+		<br/>
 
 		<select type="select" class="sel" required>
 			<option value="1H">1 H</option>
@@ -88,12 +89,14 @@
 			<option value="9H">toute la journée</option>
 		</select>
 		
-		<select id="sel" type="select" onchange="Affichage_velo(this.value)">
+		<select class="sel" type="select" onchange="Affichage_velo(this.value)">
 			<option value="velo_electrique">velo electrique</option>
 			<option value="vtt">VTT</option>
 			<option value="velo_de_ville">velo de ville</option>
 		</select>
-		<div id="limite"><img id="velo_image" src="" alt="Image de vélo"></div>
+		<div id="limite"><img id="velo_image" src="elec.jpg" alt="Image de vélo"></div>
+		<p id="description">Un vélo électrique est un cycle doté de pédales et d'un moteur électrique auxiliaire et embarquant une source d'énergie, généralement une batterie rechargeable. L'essor de ce produit est récent et certains concepts peuvent varier selon les législations régionales</p>
+		<br/>
 		<input class="button_res" type="submit" value="Reserver" >
 		</div>
 
