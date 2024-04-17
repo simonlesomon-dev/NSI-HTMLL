@@ -46,6 +46,7 @@ ul {
 .button_res:hover{
 	background-color: #ffc117;
 	transition: 0.5s;
+	
 
 }
 #annonce{
@@ -53,7 +54,9 @@ ul {
 }
 #tablee{
 	border-collapse: collapse;
-	float: left;
+	margin-left: auto;
+margin-right: auto;
+	
 }
 tr td{
 	border: 1px solid black;
@@ -62,6 +65,7 @@ tr td{
 #limite{
 	width: auto;
 	height: auto;
+	
 }
 .paragraphe{
 	padding: 20px;
@@ -84,12 +88,21 @@ tr td{
 	color: #fff;
 	margin: 50%;
 }
+#velo_image{
+	width: auto;
+	height: auto;
+	float : left;
+}
 
 #liens {
 margin-left: auto;
 margin-right: auto;
 }
 
+.sel{
+margin-left: auto;
+margin-right: auto;
+}
 
 
 #liens, tr, td{
@@ -112,5 +125,8 @@ text-align : center;
 font-style : italic;
 }
 
+#description {
+margin-top : 100px
+}
 
 
