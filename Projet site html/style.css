@@ -6,9 +6,11 @@
 	text-decoration: none;
 	
 }
+
 body{
-background-color: #fdf972;
+background-color: #fff9a8;
 }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -58,7 +60,7 @@ ul {
 #tablee{
 	border-collapse: collapse;
 	margin-left: auto;
-margin-right: auto;
+	margin-right: auto;
 	
 }
 tr td{
@@ -93,8 +95,8 @@ tr td{
 	margin: 50%;
 }
 #velo_image{
-	width: auto;
-	height: auto;
+	width: 500px;
+	height: 350px;
 	float : left;
 	margin-top : 30px;
 	border-radius : 17px; 
@@ -133,6 +135,11 @@ font-style : italic;
 }
 
 #description {
-margin-top : 100px
+margin-top : 100px;
+margin-left : 550px;
+text-align : center;
 }
 
+.t{
+text-align : center;
+}
