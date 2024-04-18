@@ -4,7 +4,7 @@
         <meta lang="fr" http-equiv="Content-Type" content="text/html" charset="utf-8" />
         <link href="style.css" rel="stylesheet" type="text/css"/>
 		<script src="script.js"></script>
-        <title>Nom</title>
+        <title>reservation</title>
     </head>
 	<body>
 
@@ -22,18 +22,18 @@
 		</div>	
 		
 		<div class="pavé">
-		<p><i>ouvert de 9h a 18h 7J/7 (hors fête national et jours férier)</i></p>
+		<p><i>ouvert de 9h a 18h 7J/7 (hors fête national et jours fériés)</i></p>
 
 		
-		<h1 class="embet">Réserver votre tour a vélo vélo maintenant !</h1>
+		<h1 class="embet">Réservez votre tour a vélo vélo maintenant !</h1>
 
 		<label for="reserver"> votre reservation le : </label>
 
 		<input type="date" name="reserver"	id="reserver" required> <br>
 
-		<p>pour une durée de [veuillez selectioner la durée de la location dans le menu déroulant] <i id="annonce">(les tarifs appliquer sont ceux indiquer dans le tableau)</i></p>
+		<p>pour une durée de [veuillez selectioner la durée de la location dans le menu déroulant] <i id="annonce">(les tarifs appliqués sont ceux indiquer dans le tableau)</i></p>
 	
-		<!-- dit si plusieure ou pas si oui js = apparaitre un menu qui demande combien et ensuite tableau avec les velo et indiquer combien de personnes pour chaque categori de velo
+		<!-- dit si plusieurs ou pas si oui js = apparaitre un menu qui demande combien et ensuite tableau avec les velo et indiquer combien de personnes pour chaque categori de velo
 		<p>veuillez préciser le nombre de personnes :</p>
 		<input type="number" id="name" name="name" required minlength="4" maxlength="8" size="10" />-->
 	
@@ -90,9 +90,9 @@
 		</select>
 		
 		<select class="sel" type="select" onchange="Affichage_velo(this.value)">
-			<option value="velo_electrique">velo electrique</option>
+			<option value="velo_electrique">vélo electrique</option>
 			<option value="vtt">VTT</option>
-			<option value="velo_de_ville">velo de ville</option>
+			<option value="velo_de_ville">vélo de ville</option>
 		</select>
 
 		<div id="limite"><img id="velo_image" src="elec.jpg" alt="Image de vélo"></div>
