@@ -24,12 +24,13 @@
 		<div class="pavé">
 		<p><i>ouvert de 9h a 18h 7J/7 (hors fête national et jours fériés)</i></p>
 
-		
+		<main>
+		<form name="monform" action="formulaire.php" method="GET">
 		<h1 class="embet">Réservez votre tour a vélo vélo maintenant !</h1>
 
 		<label for="reserver"> votre reservation le : </label>
 
-		<input type="date" name="reserver"	id="reserver" required> <br>
+		<input type="date"  name="reserver"	id="reserver" required> <br>
 
 		<p>pour une durée de [veuillez selectioner la durée de la location dans le menu déroulant] <i id="annonce">(les tarifs appliqués sont ceux indiquer dans le tableau)</i></p>
 	
@@ -77,7 +78,7 @@
 		</table>
 		<br/>
 
-		<select type="select" class="sel" required>
+		<select name="heures" id="heures" required>
 			<option value="1H">1 H</option>
 			<option value="2H">2 H</option>
 			<option value="3H">3 H</option>
@@ -89,7 +90,7 @@
 			<option value="9H">toute la journée</option>
 		</select>
 		
-		<select class="sel" type="select" onchange="Affichage_velo(this.value)">
+		<select name="velo_type" id="velo_type" onchange="Affichage_velo(this.value)">
 			<option value="velo_electrique">vélo electrique</option>
 			<option value="vtt">VTT</option>
 			<option value="velo_de_ville">vélo de ville</option>
@@ -100,5 +101,6 @@
 		<br/>
 		<input class="button_res" type="submit" value="Reserver" >
 		</div>
-
+	</form>
+	</main>
 	</body>
