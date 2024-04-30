@@ -14,7 +14,7 @@
                 echo "<p>Vous avez réserver votre velo le : ".$_GET["reserver"]."</p>";
             }
             else{
-                echo "<p> Vous n'avez pas saisi votre date de naissance.</p>";
+                echo "<p> Vous n'avez pas saisi votre date de reservation.</p>";
             }
 
             if (isset($_GET["heures"])){
